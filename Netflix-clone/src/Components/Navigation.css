@@ -1,0 +1,140 @@
+.Nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav-center{
+    display: flex;
+    align-items: center;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*{
+      font-family: "Martel Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin: 0;
+        color: white;
+}
+.All{
+    background-color: rgb(0, 0, 0);
+}
+/* ===========================
+   Responsive Breakpoints
+   =========================== */
+
+/* Extra Small Devices (Phones) */
+@media screen and (max-width: 575px) {
+
+}
+
+/* Small Devices (Large Phones) */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .Nav-List{
+        position: relative;
+        position: fixed;
+       top : 60px;
+        transition: all 0.3s ease;
+    }
+    .Navigation{
+      
+    }
+.Browse-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+.logo{
+    height: 25px;
+}
+.bi{
+    font-size: 20px;
+}
+.Nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 20px;
+    padding: 30px;
+    
+    
+}
+.nav-child{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+.nav-account{
+     background-color: white;
+    height: 30px;
+    width: 30px; 
+    border-radius: 5px;
+}
+.nav-c-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    font-size: small;
+
+}
+.nav-a-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 7px;
+      font-size: small;
+}
+.nav-browse{
+    background-color: rgb(61, 61, 61);
+    border-end-end-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+    color: white;
+    font-size: medium;
+    height: 35px;
+    border-top-left-radius: 30px;
+    font-weight: 600;
+    border-bottom-left-radius: 30px;
+    cursor: pointer;
+    width: 120px;
+      font-family: "Martel Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}   
+.nav-e{
+    display: none;
+}
+
+.nav-center{
+    display: flex;
+    align-items: center;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+/* Medium Devices (Tablets) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Large Devices (Laptops) */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Extra Large Devices (Desktops) */
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+/* 2K & 4K Monitors */
+@media screen and (min-width: 1400px) {
+
+}

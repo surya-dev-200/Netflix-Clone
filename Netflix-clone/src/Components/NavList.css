@@ -1,0 +1,20 @@
+.Navlist{
+    background-color: rgb(33, 33, 33);
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: scroll;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.e{
+    font-weight: 500;
+
+    padding: 20px;
+}
+.e:hover{
+    background-color: rgb(55, 54, 54);
+}
